@@ -8,7 +8,7 @@ albumInfo.innerHTML += `
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="../${albums[albumIndex].img}" class="img-fluid rounded-start" alt="...">
+                <img src="../${albums[albumIndex].img}" class="img-fluid album__img" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">

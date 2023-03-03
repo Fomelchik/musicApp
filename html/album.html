@@ -12,44 +12,28 @@
     <script src="../js/album.js" defer></script>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="p-3 mb-3 border-bottom border-dark">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="../index.html" class="text-logo">Музыка</a>
-            <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2">Главное</a></li>
-              <li><a href="#" class="nav-link px-2">Подкасты и книги</a></li>
-              <li><a href="#" class="nav-link px-2">Детям</a></li>
-              <li><a href="#" class="nav-link px-2">Потоки</a></li>
-              <li><a href="#" class="nav-link px-2">Коллекция</a></li>
-            </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 ms-lg-30 search-form me-lg-auto" role="search">
-              <input type="search" class="form-control" placeholder="Поиск" aria-label="Search">
-            </form>
-            <span class="plus-badge badge rounded-pill bg-secondary me-2">
-              <a href="#">ПЛЮС</a>
-            </span>
-            <div class="dropdown text-end">
-              <a href="#" class="d-block link-dark text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="mdo" width="40" height="40" class="rounded-circle">
-              </a>
-              <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="#">New project...</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
-              </ul>
-            </div>
-          </div>
+    <header class="p-3 mb-3 border-bottom border-tetriary navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Музыка</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Поиск..." aria-label="Search">
+            <a>
+              <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd" d="M12.2852 4.05704C7.74092 4.05704 4.05704 7.74092 4.05704 12.2852C4.05704 16.8295 7.74092 20.5134 12.2852 20.5134C16.8295 20.5134 20.5134 16.8295 20.5134 12.2852C20.5134 7.74092 16.8295 4.05704 12.2852 4.05704ZM2 12.2852C2 6.60485 6.60485 2 12.2852 2C17.9656 2 22.5704 6.60485 22.5704 12.2852C22.5704 17.9656 17.9656 22.5704 12.2852 22.5704C6.60485 22.5704 2 17.9656 2 12.2852Z" fill="black" fill-rule="evenodd"/>
+                <path d="M19.8786 18.3487L25.6829 24.153C26.1057 24.5758 26.1057 25.2613 25.6829 25.6841C25.2601 26.1069 24.5746 26.1069 24.1518 25.6841L18.3475 19.8798L19.8786 18.3487Z" fill="black"/>
+              </svg>
+            </a>
+          </form>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-lg-2">
           <div class="album col">
             
           </div>
@@ -65,5 +49,13 @@
         </div>
       </div>
     </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+      </div>
+    </footer>
   </body>
 </html>
