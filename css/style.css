@@ -61,7 +61,8 @@ input[type="search"]{
 }
 .track{
   display: flex;
-  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
 }
 .track_info{
   display: flex;
@@ -89,6 +90,18 @@ footer{
 .navbar-collapse{
   padding-top: 1rem;
   justify-content: flex-end;
+}
+.progress{
+  width: 50%;
+
+}
+.progress-bar{
+  background-color: #ffcc00;
+}
+.error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media(width < 992px) {
   .album__img{

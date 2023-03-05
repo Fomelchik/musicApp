@@ -1,0 +1,98 @@
+let albums = [
+  {
+    title: `Wake Up Calls`,
+    img: `wake_up_calls.jpeg`,
+    description: `Исполнитель: Cosmo Sheldrake`,
+    author: `Cosmo Sheldrake`,
+    year: `2020`,
+    tracks: [
+      {
+        title: `Beetroot Kvass`,
+        src: `Cosmo_Sheldrake_-_Beetroot_Kvass.mp3`,
+        author: `Cosmo_Sheldrake`,
+        time: `02:43`
+      },
+      {
+        title: `Birth a Basket`,
+        src: `Cosmo_Sheldrake_-_Birth_a_Basket.mp3`,
+        author: `Cosmo_Sheldrake`,
+        time: `02:39`
+      },
+      {
+        title: `Birthday Suit`,
+        src: `Cosmo_Sheldrake_-_Birthday_Suit.mp3`,
+        author: `Cosmo_Sheldrake`,
+        time: `01:20`
+      }
+    ]
+  },
+  {
+    title: `Инди рок`,
+    img: `img2.jpg`,
+    description: `Крутое описание альбома :D`,
+    year: `2022`,
+        tracks: [
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      },
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      },
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      }
+    ]
+  },
+  {
+    title: `Мегакрутой альбом`,
+    img: `img3.jpg`,
+    description: `Крутое описание альбома :D`,
+    year: `2022`,
+        tracks: [
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `1:43`
+      },
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      },
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `4:39`
+      }
+    ]
+  },
+  {
+    title: `Ещё одна музыка`,
+    img: `img4.jpg`,
+    description: `Крутое описание альбома :D`,
+    year: `2022`,
+        tracks: [
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      },
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      },
+      {
+        title: `Крутой трек`,
+        author: `Крутой исполнитель крутого трека`,
+        time: `2:32`
+      }
+    ]
+  }
+];

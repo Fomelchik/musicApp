@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
+    <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/style.css">
     <script src="../js/data.js" defer></script>
     <script src="../js/album.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
   </head>
   <body>
     <header class="p-3 mb-3 border-bottom border-tetriary navbar navbar-expand-lg">
@@ -18,27 +19,20 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Поиск..." aria-label="Search">
-            <a>
-              <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
-                <path clip-rule="evenodd" d="M12.2852 4.05704C7.74092 4.05704 4.05704 7.74092 4.05704 12.2852C4.05704 16.8295 7.74092 20.5134 12.2852 20.5134C16.8295 20.5134 20.5134 16.8295 20.5134 12.2852C20.5134 7.74092 16.8295 4.05704 12.2852 4.05704ZM2 12.2852C2 6.60485 6.60485 2 12.2852 2C17.9656 2 22.5704 6.60485 22.5704 12.2852C22.5704 17.9656 17.9656 22.5704 12.2852 22.5704C6.60485 22.5704 2 17.9656 2 12.2852Z" fill="black" fill-rule="evenodd"/>
-                <path d="M19.8786 18.3487L25.6829 24.153C26.1057 24.5758 26.1057 25.2613 25.6829 25.6841C25.2601 26.1069 24.5746 26.1069 24.1518 25.6841L18.3475 19.8798L19.8786 18.3487Z" fill="black"/>
-              </svg>
-            </a>
-          </form>
-        </div>
       </div>
     </header>
     <main>
+      <div class="error d-none">
+        <h2>Ошибка</h2>
+        <p>Альбом не найден</p>
+      </div>
       <div class="container">
         <div class="row row-cols-1 row-cols-lg-2">
           <div class="album col">
             
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card d-none tracks-card">
               <div class="card-header">
                 Треки
               </div>
